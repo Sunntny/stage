@@ -1,0 +1,92 @@
+.all h1{
+    font-size: 26px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #5D98FC;
+}
+.high{
+    display: grid;
+    grid-template-columns: 1000px 100px 100px;
+    justify-content: space-around;
+}
+.high span:nth-of-type(1){
+    /* padding: 20px 0; */
+    padding: 20px 0 20px 0;
+}
+.high span:nth-of-type(2){
+   border-radius: 8px;
+   background-color: #4E71F3;
+   /* padding: 20px 0; */
+   padding: 20px 0 20px 0;
+   color: white;
+}
+.high img{
+    width: 100px;
+    padding: 10px 0;
+}
+.picture{
+    width: 200px;
+    margin-left: 20px;
+}
+.picture p:nth-of-type(1){
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: left;
+}
+.commend h2{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 15px;
+    /* font-weight: bold; */
+    font-size:20px;
+}
+.img{
+    width: 30px;
+    /* background-color: cornflowerblue; */
+    margin-right: 10px;
+    margin-left: 25px;
+    /* border: 1px solid #cccccc; */
+    margin-bottom: 30px;
+}
+.commend{
+    text-align: left;
+}
+.input{
+    width: 600px;
+    height: 100px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 10px;
+    resize: none;
+    margin-left: 30px;
+}
+.commend span{
+display: block;
+background-color: cornflowerblue;
+width: 53px;
+padding: 8px 10px;
+border-radius: 8px;
+margin-left: 580px;
+margin-top: 20px;
+}
+.ant-comment-avatar{
+margin-left: 25px;
+}
+.ant-comment-content-detail p{
+    text-align: left;
+}
+.ant-comment-actions  {
+   text-align: left;
+}
+.reply button{
+    margin-top: 10px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+}
+.area{
+    border: 1px solid #cccccc;
+    resize: none;
+}
